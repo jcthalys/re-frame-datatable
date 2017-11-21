@@ -16,7 +16,9 @@
     [:code.inline-code "::sorting"] " with the value "
     [:code.inline-code "{::enabled? true}"] " to particular column definition in "
     [:code.inline-code "columns-def"] " vector. "
-    "In the example below, index and play_count columns are made sortable."]
+    "In the example below, index and play_count columns are made sortable." 
+    "In addition, to resolve these icons in the example below, you need to import the semantic-ui icons 
+    Ex.: https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/components/icon.min.css"]
 
    [components/info-message
     [:div " To sort table, click on a column header (for the column on which sorting was enabled)"]]
